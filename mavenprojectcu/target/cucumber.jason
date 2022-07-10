@@ -1,0 +1,276 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-23T14:12:15.083Z",
+        "line": 29,
+        "name": "verify that user should not be able to login with invalid credintial",
+        "description": "",
+        "id": "login-feature;verify-that-user-should-not-be-able-to-login-with-invalid-credintial",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10622314700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "browser should open with respective URL",
+            "match": {
+              "location": "com.stepdefination.login.browser_should_open_with_respective_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 91154200,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Enter the Username \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 20
+                }
+              ],
+              "location": "com.stepdefination.login.enter_the_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 68743400,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Enter the password \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin123\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.stepdefination.login.enter_the_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1975651800,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "click on login button",
+            "match": {
+              "location": "com.stepdefination.login.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8548700,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "then user should not be able to login",
+            "match": {
+              "location": "com.stepdefination.login.then_user_should_not_be_able_to_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoketest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-23T14:12:27.888Z",
+        "line": 44,
+        "name": "verify that user should not be able to login with invalid credintial",
+        "description": "",
+        "id": "login-feature;verify-that-user-should-not-be-able-to-login-with-invalid-credintial;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 474400,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "browser should open with respective URL",
+            "match": {
+              "location": "com.stepdefination.login.browser_should_open_with_respective_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 74365900,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Enter the Username \"Admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin123",
+                  "offset": 20
+                }
+              ],
+              "location": "com.stepdefination.login.enter_the_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 129803500,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Enter the password \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.stepdefination.login.enter_the_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1303127500,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "click on login button",
+            "match": {
+              "location": "com.stepdefination.login.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6641400,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "then user should not be able to login",
+            "match": {
+              "location": "com.stepdefination.login.then_user_should_not_be_able_to_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regressiontest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-23T14:12:29.413Z",
+        "line": 45,
+        "name": "verify that user should not be able to login with invalid credintial",
+        "description": "",
+        "id": "login-feature;verify-that-user-should-not-be-able-to-login-with-invalid-credintial;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "browser should open with respective URL",
+            "match": {
+              "location": "com.stepdefination.login.browser_should_open_with_respective_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 61312600,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Enter the Username \"Admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin123",
+                  "offset": 20
+                }
+              ],
+              "location": "com.stepdefination.login.enter_the_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61273200,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Enter the password \"345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"345\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.stepdefination.login.enter_the_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1297693400,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "click on login button",
+            "match": {
+              "location": "com.stepdefination.login.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6445200,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "then user should not be able to login",
+            "match": {
+              "location": "com.stepdefination.login.then_user_should_not_be_able_to_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regressiontest"
+          }
+        ]
+      }
+    ],
+    "name": "login feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/loginscenario.feature",
+    "tags": []
+  }
+]
